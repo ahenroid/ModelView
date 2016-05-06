@@ -1,0 +1,559 @@
+TModelView
+v7
+r0
+t484197353.757386
+cCheck dependencies
+cCpResource build/Release-iphoneos/ModelView.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/Info.plist ModelView-Info.plist
+cCompileXIB /Users/henroid/proj/ModelView/MainWindow.xib
+cCopyPNGFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/icon.png icon.png
+cCpResource build/Release-iphoneos/ModelView.app/scene.jpg scene.jpg
+cProcessPCH /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch.gch ModelView_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch.gch ModelView_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/main.o /Users/henroid/proj/ModelView/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelViewAppDelegate.o /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/EAGLView.o /Users/henroid/proj/ModelView/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ES1Renderer.o /Users/henroid/proj/ModelView/Classes/ES1Renderer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView normal armv6
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/main.o /Users/henroid/proj/ModelView/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelViewAppDelegate.o /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/EAGLView.o /Users/henroid/proj/ModelView/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ES1Renderer.o /Users/henroid/proj/ModelView/Classes/ES1Renderer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView normal armv7
+cCreateUniversalBinary /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView normal "armv6 armv7"
+cGenerateDSYMFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app.dSYM /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+cTouch /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent
+cCodeSign /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+cValidate /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C3671890000000000000110
+t1278636425
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFE09B7000000000000094F
+t1274939831
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFE09B70000000000000A61
+t1274939831
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFE09B70000000000009369
+t1274939831
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFE09B70000000000003C4A
+t1274939831
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFE09CA000000000002C690
+t1274939850
+s181904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C0458CC00000000000000C4
+t1275353292
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Users/henroid/proj/ModelView/Classes/EAGLView.h
+c00000000572C09750000000000000598
+t1462503797
+s1432
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+
+N/Users/henroid/proj/ModelView/Classes/EAGLView.m
+c00000000572C09750000000000001637
+t1462503797
+s5687
+i"EAGLView.h"
+i"ES1Renderer.h"
+
+N/Users/henroid/proj/ModelView/Classes/ES1Renderer.h
+c00000000572C09750000000000000267
+t1462503797
+s615
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/henroid/proj/ModelView/Classes/ES1Renderer.m
+c00000000572C097500000000000019F2
+t1462503797
+s6642
+i"ES1Renderer.h"
+i"scene.h"
+
+N/Users/henroid/proj/ModelView/Classes/ESRenderer.h
+c00000000572C09750000000000000183
+t1462503797
+s387
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.h
+c00000000572C0975000000000000018C
+t1462503797
+s396
+i<UIKit/UIKit.h>
+
+N/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m
+c00000000572C09750000000000000318
+t1462503797
+s792
+i"ModelViewAppDelegate.h"
+i"EAGLView.h"
+
+N/Users/henroid/proj/ModelView/MainWindow.xib
+c00000000572C09750000000000002778
+t1462503797
+s10104
+
+N/Users/henroid/proj/ModelView/ModelView_Prefix.pch
+c00000000572C0976000000000000013C
+t1462503798
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent
+t1462504552
+s352
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/EAGLView.o
+t1462504548
+s51500
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ES1Renderer.o
+t1462504549
+s94812
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView
+t1462504549
+s98320
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView.LinkFileList
+c00000000572C0C5E00000000000001DF
+t1462504542
+s479
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelViewAppDelegate.o
+t1462504547
+s46888
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/main.o
+t1462504547
+s6440
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/EAGLView.o
+t1462504550
+s50776
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ES1Renderer.o
+t1462504551
+s93916
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView
+t1462504551
+s98320
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView.LinkFileList
+c00000000572C0C5E00000000000001DF
+t1462504542
+s479
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelViewAppDelegate.o
+t1462504550
+s46736
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/main.o
+t1462504549
+s6400
+
+N/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+t1462504553
+s374
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app.dSYM
+t1462504552
+s102
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/Info.plist
+t1462504543
+s788
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/MainWindow.nib
+t1462504544
+s1186
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+t1462504551
+s204816
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/PkgInfo
+t1462504543
+s8
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ResourceRules.plist
+t1462504543
+s485
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/icon.png
+t1462504544
+s8564
+
+N/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/scene.jpg
+t1462504544
+s312728
+
+N/Users/henroid/proj/ModelView/icon.png
+c00000000572C09750000000000001F76
+t1462503797
+s8054
+
+N/Users/henroid/proj/ModelView/main.m
+c00000000572C09750000000000000149
+t1462503797
+s329
+i<UIKit/UIKit.h>
+
+N/Users/henroid/proj/ModelView/scene.h
+c00000000572C0976000000000002CA3D
+t1462503798
+s182845
+
+N/Users/henroid/proj/ModelView/scene.jpg
+c00000000572C0976000000000004C598
+t1462503798
+s312728
+
+N/var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch.gch
+t1462504546
+s10090032
+
+N/var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch.gch
+t1462504545
+s9631280
+
+NModelView-Info.plist
+c00000000572C0975000000000000039D
+t1462503797
+s925
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies484197342#484197342#0(0"0(0#1#0"8611598656#0"0#
+
+CCodeSign /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+s484197352.090951
+e484197353.050005
+r1
+xCodeSign
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+lSLF07#2@45"CodeSign build/Release-iphoneos/ModelView.app484197352#484197353#0(0"0(0#0#66"/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app8610192704#601"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ResourceRules.plist --entitlements /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/EAGLView.o /Users/henroid/proj/ModelView/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s484197347.797515
+e484197348.305728
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/EAGLView.o
+x/Users/henroid/proj/ModelView/Classes/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/henroid/proj/ModelView/Classes/EAGLView.m484197347#484197348#0(0"0(0#0#48"/Users/henroid/proj/ModelView/Classes/EAGLView.m8611359936#1732"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv6 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/EAGLView.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ES1Renderer.o /Users/henroid/proj/ModelView/Classes/ES1Renderer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s484197348.305825
+e484197349.088298
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ES1Renderer.o
+x/Users/henroid/proj/ModelView/Classes/ES1Renderer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/henroid/proj/ModelView/Classes/ES1Renderer.m484197348#484197349#0(0"0(0#0#51"/Users/henroid/proj/ModelView/Classes/ES1Renderer.m8610118976#1738"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv6 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/ES1Renderer.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ES1Renderer.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelViewAppDelegate.o /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s484197347.367421
+e484197347.797418
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelViewAppDelegate.o
+x/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m484197347#484197347#0(0"0(0#0#60"/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m8608385504#1756"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv6 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelViewAppDelegate.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/main.o /Users/henroid/proj/ModelView/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s484197346.974683
+e484197347.367323
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/main.o
+x/Users/henroid/proj/ModelView/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/henroid/proj/ModelView/main.m484197346#484197347#0(0"0(0#0#36"/Users/henroid/proj/ModelView/main.m8610391584#1716"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv6 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/main.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/EAGLView.o /Users/henroid/proj/ModelView/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s484197350.309063
+e484197350.850507
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/EAGLView.o
+x/Users/henroid/proj/ModelView/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/henroid/proj/ModelView/Classes/EAGLView.m484197350#484197350#0(0"0(0#0#48"/Users/henroid/proj/ModelView/Classes/EAGLView.m8608570784#1740"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv7 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/EAGLView.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ES1Renderer.o /Users/henroid/proj/ModelView/Classes/ES1Renderer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s484197350.850740
+e484197351.655767
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ES1Renderer.o
+x/Users/henroid/proj/ModelView/Classes/ES1Renderer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/henroid/proj/ModelView/Classes/ES1Renderer.m484197350#484197351#0(0"0(0#0#51"/Users/henroid/proj/ModelView/Classes/ES1Renderer.m8611441920#1746"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv7 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/ES1Renderer.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ES1Renderer.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelViewAppDelegate.o /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s484197349.875556
+e484197350.308968
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelViewAppDelegate.o
+x/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m484197349#484197350#0(0"0(0#0#60"/Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m8611107744#1764"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv7 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/Classes/ModelViewAppDelegate.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelViewAppDelegate.o0#
+
+CCompileC build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/main.o /Users/henroid/proj/ModelView/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s484197349.534334
+e484197349.875460
+r1
+xCompileC
+xbuild/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/main.o
+x/Users/henroid/proj/ModelView/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/henroid/proj/ModelView/main.m484197349#484197349#0(0"0(0#0#36"/Users/henroid/proj/ModelView/main.m8608787104#1724"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv7 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch -c /Users/henroid/proj/ModelView/main.m -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/henroid/proj/ModelView/MainWindow.xib
+s484197343.044550
+e484197344.522330
+r1
+xCompileXIB
+x/Users/henroid/proj/ModelView/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib484197343#484197344#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/henroid/proj/ModelView/MainWindow.xib8608268128#519"    cd /Users/henroid/proj/ModelView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/MainWindow.nib /Users/henroid/proj/ModelView/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/icon.png icon.png
+s484197344.522555
+e484197344.907659
+r1
+xCopyPNGFile
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/icon.png
+xicon.png
+lSLF07#2@66"CopyPNGFile build/Release-iphoneos/ModelView.app/icon.png icon.png484197344#484197344#0(0"0(0#0#38"/Users/henroid/proj/ModelView/icon.png8611344256#533"    cd /Users/henroid/proj/ModelView    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/henroid/proj/ModelView/icon.png /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/icon.png0#
+
+CCpResource build/Release-iphoneos/ModelView.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s484197342.985580
+e484197343.044466
+r1
+xCpResource
+xbuild/Release-iphoneos/ModelView.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist484197342#484197343#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8610114432#487"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app0#
+
+CCpResource build/Release-iphoneos/ModelView.app/scene.jpg scene.jpg
+s484197344.907746
+e484197344.934218
+r1
+xCpResource
+xbuild/Release-iphoneos/ModelView.app/scene.jpg
+xscene.jpg
+lSLF07#2@14"Copy scene.jpg484197344#484197344#0(0"0(0#0#39"/Users/henroid/proj/ModelView/scene.jpg8605600128#437"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/henroid/proj/ModelView/scene.jpg /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app0#
+
+CCreateUniversalBinary /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView normal "armv6 armv7"
+s484197351.857433
+e484197351.927464
+r1
+xCreateUniversalBinary
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/ModelView.app/ModelView normal "armv6 armv7"484197351#484197351#0(0"0(0#0#41"/Users/henroid/proj/ModelView/armv6 armv78607711904#504"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView -output /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView0#
+
+CGenerateDSYMFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app.dSYM /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+s484197351.927558
+e484197352.058901
+r1
+xGenerateDSYMFile
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app.dSYM
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/ModelView.app.dSYM build/Release-iphoneos/ModelView.app/ModelView484197351#484197352#0(0"0(0#0#76"/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView8603769792#345"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView -o /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app.dSYM0#
+
+CLd /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView normal armv6
+s484197349.088518
+e484197349.534235
+r1
+xLd
+x/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView
+xnormal
+xarmv6
+lSLF07#2@120"Link /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView484197349#484197349#0(0"0(0#0#0"8608223392#876"    cd /Users/henroid/proj/ModelView    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/henroid/proj/ModelView/build/Release-iphoneos -F/Users/henroid/proj/ModelView/build/Release-iphoneos -filelist /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv6/ModelView0#
+
+CLd /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView normal armv7
+s484197351.655856
+e484197351.857335
+r1
+xLd
+x/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView
+xnormal
+xarmv7
+lSLF07#2@120"Link /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView484197351#484197351#0(0"0(0#0#0"8610313344#876"    cd /Users/henroid/proj/ModelView    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/henroid/proj/ModelView/build/Release-iphoneos -F/Users/henroid/proj/ModelView/build/Release-iphoneos -filelist /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/Objects-normal/armv7/ModelView0#
+
+CProcessInfoPlistFile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/Info.plist ModelView-Info.plist
+s484197342.989596
+e484197343.004678
+r1
+xProcessInfoPlistFile
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/Info.plist
+xModelView-Info.plist
+lSLF07#2@28"Process ModelView-Info.plist484197342#484197343#0(0"0(0#0#50"/Users/henroid/proj/ModelView/ModelView-Info.plist8609960224#540"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ModelView-Info.plist -genpkginfo /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ResourceRules.plist -o /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/Info.plist0#
+
+CProcessPCH /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch.gch ModelView_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s484197345.985615
+e484197346.974480
+r1
+xProcessPCH
+x/var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch.gch
+xModelView_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ModelView_Prefix.pch484197345#484197346#0(0"0(0#0#50"/Users/henroid/proj/ModelView/ModelView_Prefix.pch8611276064#1627"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv7 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/henroid/proj/ModelView/ModelView_Prefix.pch -o /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-ckmbvulxldnzgnarngjnsntyldya/ModelView_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch.gch ModelView_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s484197344.934335
+e484197345.985507
+r1
+xProcessPCH
+x/var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch.gch
+xModelView_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ModelView_Prefix.pch484197344#484197345#0(0"0(0#0#50"/Users/henroid/proj/ModelView/ModelView_Prefix.pch8600749344#1619"    cd /Users/henroid/proj/ModelView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.0 -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-generated-files.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-own-target-headers.hmap -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-all-target-headers.hmap -iquote /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView-project-headers.hmap -F/Users/henroid/proj/ModelView/build/Release-iphoneos -I/Users/henroid/proj/ModelView/build/Release-iphoneos/include -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources/armv6 -I/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/henroid/proj/ModelView/ModelView_Prefix.pch -o /var/folders/1E/1ET0KH2mE8K5qCG31B33N++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ModelView_Prefix-dwfejmaotoaxwbbcmyfrnuuwnnsy/ModelView_Prefix.pch.gch0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent
+s484197352.073621
+e484197352.090876
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent484197352#484197352#0(0"0(0#0#100"/Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent8611005888#422"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/henroid/proj/ModelView/build/ModelView.build/Release-iphoneos/ModelView.build/ModelView.xcent0#
+
+CTouch /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+s484197352.058987
+e484197352.073521
+r1
+xTouch
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+lSLF07#2@72"Touch /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app484197352#484197352#0(0"0(0#0#0"8610009344#250"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app0#
+
+CValidate /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+s484197353.050548
+e484197353.757339
+r1
+xValidate
+x/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app
+owarning: iPhone/iPod Touch: icon.png: icon dimensions (0 x 0) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)
+oExecutable=/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView
+o - (null)
+o
+lSLF07#2@45"Validate build/Release-iphoneos/ModelView.app484197353#484197353#0(450"warning: iPhone/iPod Touch: icon.png: icon dimensions (0 x 0) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)Executable=/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app/ModelView - (null)2(22@148" iPhone/iPod Touch: icon.png: icon dimensions (0 x 0) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)484197353#18446744073709551615#0#0(6@0"484197353#0#0#0#0#0"0(22@138" Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)484197353#18446744073709551615#0#0(6@0"484197353#0#0#0#0#0"0(0#0#66"/Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app8607174112#359"    cd /Users/henroid/proj/ModelView    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/henroid/proj/ModelView/build/Release-iphoneos/ModelView.app0#
+
